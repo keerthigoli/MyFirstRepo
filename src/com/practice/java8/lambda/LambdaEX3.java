@@ -17,6 +17,7 @@ public class LambdaEX3 {
 	List<Product> names=list1.stream().filter(p->p.getPname().startsWith("D")).collect(Collectors.toList())
 		;
 	System.out.println(names);
+	System.out.println("using lambda expression");
 		
 	}
 }
